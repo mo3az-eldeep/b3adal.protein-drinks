@@ -143,11 +143,22 @@ footer {
   margin-top: 40px;
 }
 footer a {
-  margin: 0 20px;
+  margin: 0 15px;
   color: #fff;
-  text-decoration: none;
-
+  font-size: 28px;   /* حجم الأيقونات */
+  transition: all 0.3s ease; /* حركة ناعمة */
 }
+
+footer a:hover {
+  transform: scale(1.3); /* تكبير عند الهوفر */
+}
+
+/* ألوان خاصة لكل أيقونة */
+footer a .fa-instagram { color: #E1306C; }
+footer a .fa-facebook { color: #1877F2; }
+footer a .fa-tiktok { color: #000000; }
+footer a .fa-whatsapp { color: #25D366; }
+
 
 
 
