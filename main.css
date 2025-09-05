@@ -90,11 +90,11 @@ button:hover {
 }
 .modal-content {
   background: white;
-  margin: 5% auto;
+  margin: 3% auto;
   padding: 25px;
-  border-radius: 12px;
-  width: 95%;         /* العرض بالنسبة للشاشة */
-  max-width: 700px;   /* كبرنا العرض بدل 400 */
+  border-radius: 15px;
+  width: 95%;           /* ياخد تقريبا العرض كله */
+  max-width: 850px;     /* أعرض كتير بدل 400 */
   text-align: center;
   position: relative;
 }
@@ -107,26 +107,28 @@ button:hover {
 }
 .close {
   position: absolute;
-  top: 12px;
-  right: 15px;           /* نحطها في الركن اليمين فوق */
+  top: 15px;
+  right: 20px;          /* على اليمين فوق */
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;          /* أبيض */
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
   width: 35px;
   height: 35px;
-  background: rgba(0,0,0,0.6); /* دايرة شفافة */
-  color: #fff;           /* اللون أبيض */
-  border-radius: 50%;    /* دايرة */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;       /* حجم العلامة */
-  cursor: pointer;
   transition: 0.3s;
-  z-index: 2000;         /* فوق كل العناصر */
+  z-index: 2000;
 }
-
 .close:hover {
-  background: rgba(255,0,0,0.8); /* عند المرور تبقى حمراء */
+  background: rgba(255,0,0,0.8);
   color: #fff;
 }
+
+
 
 .order-btn {
   background: #007bff;
@@ -148,6 +150,7 @@ footer a {
   text-decoration: none;
 
 }
+
 
 
 
