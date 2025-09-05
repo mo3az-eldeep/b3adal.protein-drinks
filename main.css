@@ -99,9 +99,7 @@ button:hover {
   position: relative;
 }
 .modal-content img {
-  max-width: 100%;
-  max-height: 350px;
-  object-fit: contain;
+  width: 100%;
   border-radius: 12px;
   margin-bottom: 15px;
   margin-top: 20px; /* دي اللي هتنزل الصورة لتحت */
@@ -150,5 +148,6 @@ footer a {
   text-decoration: none;
 
 }
+
 
 
