@@ -90,14 +90,15 @@ button:hover {
 }
 .modal-content {
   background: white;
-  margin: 3% auto;
+  margin: 5% auto;
   padding: 25px;
   border-radius: 12px;
-  width: 95%;
-  max-width: 600px;   /* كبرنا العرض */
+  width: 95%;         /* العرض بالنسبة للشاشة */
+  max-width: 700px;   /* كبرنا العرض بدل 400 */
   text-align: center;
   position: relative;
 }
+
 
 .modal-content img {
   width: 100%;
@@ -147,6 +148,7 @@ footer a {
   text-decoration: none;
 
 }
+
 
 
 
