@@ -90,45 +90,45 @@ button:hover {
 }
 .modal-content {
   background: white;
-  margin: 3% auto;
-  padding: 25px;
-  border-radius: 15px;
-  width: 95%;           /* ياخد تقريبا العرض كله */
-  max-width: 850px;     /* أعرض كتير بدل 400 */
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
   text-align: center;
   position: relative;
 }
-
-
 .modal-content img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: contain;
   border-radius: 12px;
   margin-bottom: 15px;
+  margin-top: 20px; /* دي اللي هتنزل الصورة لتحت */
 }
+
 .close {
   position: absolute;
-  top: 15px;
-  right: 20px;          /* على اليمين فوق */
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  color: #fff;          /* أبيض */
-  background: rgba(0,0,0,0.6);
-  border-radius: 50%;
+  top: 12px;
+  right: 15px;           /* نحطها في الركن اليمين فوق */
   width: 35px;
   height: 35px;
+  background: rgba(0,0,0,0.6); /* دايرة شفافة */
+  color: #fff;           /* اللون أبيض */
+  border-radius: 50%;    /* دايرة */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;       /* حجم العلامة */
+  cursor: pointer;
   transition: 0.3s;
-  z-index: 2000;
+  z-index: 2000;         /* فوق كل العناصر */
 }
+
 .close:hover {
-  background: rgba(255,0,0,0.8);
+  background: rgba(255,0,0,0.8); /* عند المرور تبقى حمراء */
   color: #fff;
 }
-
-
 
 .order-btn {
   background: #007bff;
@@ -145,13 +145,10 @@ footer {
   margin-top: 40px;
 }
 footer a {
-  margin: 0 10px;
+  margin: 0 20px;
   color: #fff;
   text-decoration: none;
 
 }
-
-
-
 
 
