@@ -87,7 +87,11 @@ button:hover {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.6);
+
+  /* الجديد */
+  overflow-y: auto; /* يخلي الاسكرول جوه المودال */
 }
+
 .modal-content {
   background: white;
   margin: 5% auto;
@@ -97,7 +101,13 @@ button:hover {
   max-width: 400px;
   text-align: center;
   position: relative;
+
+  /* الجديد */
+  max-height: 90vh;  /* علشان ما يخرجش بره الشاشة */
+  overflow-y: auto;  /* لو المحتوى طويل، يعمل Scroll جوه */
 }
+
+
 .modal-content img {
   width: 100%;
   border-radius: 12px;
@@ -158,9 +168,4 @@ footer a .fa-instagram { color: #E1306C; }
 footer a .fa-facebook { color: #1877F2; }
 footer a .fa-tiktok { color: 	#FFFFFF; }
 footer a .fa-whatsapp { color: #25D366; }
-
-
-
-
-
 
