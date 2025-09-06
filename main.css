@@ -111,8 +111,8 @@ button:hover {
 .modal-content img {
   width: 100%;
   border-radius: 12px;
-  margin-bottom: 15px;
-  margin-top: 30px; /* دي اللي هتنزل الصورة لتحت */
+  margin-bottom: 10px;
+  margin-top: 25px; /* دي اللي هتنزل الصورة لتحت */
 }
 
 .close {
@@ -168,4 +168,5 @@ footer a .fa-instagram { color: #E1306C; }
 footer a .fa-facebook { color: #1877F2; }
 footer a .fa-tiktok { color: 	#FFFFFF; }
 footer a .fa-whatsapp { color: #25D366; }
+
 
