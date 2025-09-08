@@ -54,7 +54,13 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 330px; /* خليها حسب مقاسك */
+  height: 280px;  /* قللتها بدل 330px */
+}
+
+.item h3 {
+  font-weight: bold;   /* الخط سميك */
+  font-size: 18px;     /* ممكن تكبره أو تصغره حسب ذوقك */
+  margin: 10px 0;
 }
 
 .item img {
@@ -176,6 +182,7 @@ footer a .fa-instagram { color: #E1306C; }
 footer a .fa-facebook { color: #1877F2; }
 footer a .fa-tiktok { color: 	#FFFFFF; }
 footer a .fa-whatsapp { color: #25D366; }
+
 
 
 
