@@ -49,13 +49,21 @@ header h1 {
   width: 220px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+  /* الإضافة */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 330px; /* خليها حسب مقاسك */
 }
+
 .item img {
   width: 100%;
-  height: 150px;
+  height: 150px;   /* طول ثابت */
   object-fit: cover;
   border-radius: 10px;
 }
+
 
 button {
   margin-top: 10px;
@@ -168,5 +176,6 @@ footer a .fa-instagram { color: #E1306C; }
 footer a .fa-facebook { color: #1877F2; }
 footer a .fa-tiktok { color: 	#FFFFFF; }
 footer a .fa-whatsapp { color: #25D366; }
+
 
 
