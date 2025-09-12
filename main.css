@@ -41,6 +41,16 @@ header h1 {
   max-width: 1000px;
   padding: 0 10px;
 }
+.menu-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  letter-spacing: 3px;
+}
+
 .item {
   background: rgba(255,255,255,0.9);
   border: 1px solid #ddd;
@@ -182,6 +192,7 @@ footer a .fa-instagram { color: #E1306C; }
 footer a .fa-facebook { color: #1877F2; }
 footer a .fa-tiktok { color: 	#FFFFFF; }
 footer a .fa-whatsapp { color: #25D366; }
+
 
 
 
